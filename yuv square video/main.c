@@ -26,7 +26,6 @@ unsigned int colorV;
 
 void * generate_frame(void * arg)
 {
-
     while(TRUE) {
         sem_wait (&empty);
         sem_wait (&mutex);
